@@ -13,6 +13,8 @@ Check out the [Release page](https://github.com/nomi-san/indie-theme/releases) t
 
 ## 🚀 Features
 
+> Note that the results may differ on landing pages (Rito uses fixed 1055px width)
+
 <br />
 
 <p align="center">
