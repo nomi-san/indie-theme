@@ -65,13 +65,10 @@ export async function load() {
     //         })
     //     })
 
-    let url = import.meta.url
-    if (url.startsWith('https://plugins/')) {
-        import('./theme.css')
-    } else {
-        let link = document.createElement('link')
-        link.setAttribute('rel', 'stylesheet');
-        link.setAttribute('href', new URL('./theme.css', url).href);
-        document.body.appendChild(link)
-    }
+    // inject theme
+    let theme = new URL('./theme.css', import.meta.url).href
+    let link = document.createElement('link')
+    link.setAttribute('rel', 'stylesheet');
+    link.setAttribute('href', theme);
+    document.body.appendChild(link)
 }
