@@ -1,0 +1,193 @@
+.rcp-fe-viewport-main {
+  width: 100% !important;
+}
+
+lol-uikit-flyout-frame {
+  z-index: 100;
+}
+
+.bg-current.uikit-background-switcher {
+  width: 100% !important;
+}
+
+.rcp-fe-viewport-sidebar {
+  position: fixed;
+  right: 0px;
+  z-index: 1;
+  background: transparent !important;
+  height: auto !important;
+}
+
+.lol-social-sidebar {
+  background: transparent !important;
+}
+
+lol-social-avatar {
+  transform: scale(0.85);
+}
+
+lol-social-roster {
+  /* padding-bottom: 160px; */
+}
+
+.v2-header-component {
+  top: 0 !important;
+}
+
+.v2-header-component .lobby-header-content {
+  margin-top: 18px !important;
+}
+
+.v2-parties-invite-info-panel {
+  background: transparent !important;
+}
+
+.parties-invite-info-panel-body {
+  border-bottom: none !important;
+}
+
+.lobby-header-buttons-container {
+  position: absolute;
+  top: calc(90vh - 4px);
+  right: calc(60vw + 4px);
+}
+
+.alpha-version-panel {
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+  width: 223px !important;
+}
+
+.navbar-blur {
+  display: none;
+}
+
+.navigation-root-component {
+  border-bottom: none !important;
+}
+
+/* lol-parties-game-info-panel {
+  display: none !important;
+} */
+
+.lol-social-lower-pane-container {
+  position: fixed;
+  height: 330px;
+  right: 1px;
+  bottom: 36px;
+  width: 223px;
+  background-image: linear-gradient(rgb(7, 34, 55), rgb(1, 10, 19));
+  /* border-top: 2px solid transparent;
+  border-image: linear-gradient(0deg, rgb(120, 91, 40), rgb(200, 156, 60) 55%, rgb(200, 163, 85) 71%, rgb(200, 170, 110)) 1 / 1 / 0 stretch; */
+  box-sizing: border-box;
+
+  /* flex-flow: column-reverse; */
+  box-shadow: -14px -13px 39px 6px rgba(0, 0, 0, 0.5);
+}
+
+.lol-social-lower-pane-container.hidden {
+  display: none;
+}
+
+.bug-report-button {
+  background-image: url(../assets/social-button.png) !important;
+}
+
+.play-button-component.disabled {
+  visibility: hidden;
+}
+
+.navigation-root-component {
+  justify-content: flex-end !important;
+}
+
+lol-uikit-navigation-bar {
+  width: unset !important;
+}
+
+.right-nav-vertical-rule {
+  display: none;
+}
+
+.wallet-and-badges {
+  margin-right: 0 !important;
+}
+
+.wallet-and-badges>* {
+  margin-left: 8px !important;
+}
+
+.main-navigation-menu-item,
+.wallet-and-badges,
+.ticker-button,
+lol-social-panel>* {
+  opacity: .2;
+}
+
+.main-navigation-menu-item:hover,
+.main-navigation-menu-item[active],
+.wallet-and-badges:hover,
+.ticker-button:hover,
+lol-social-panel>*:hover {
+  opacity: .8;
+}
+
+.style-profile-skin-picker-button {
+  z-index: 100;
+}
+
+.loot-content-wrapper,
+.collections-application {
+  width: 100% !important;
+}
+
+.loot-backdrop {
+  width: 100% !important;
+  background-size: cover !important;
+}
+
+.rcp-fe-viewport-overlay {
+  z-index: 2;
+}
+
+.rcp-fe-viewport-overlay>.screen-root:first-child {
+  border-top: 1px solid #1e282d;
+}
+
+.invite-info-panel-container {
+  bottom: 40px !important;
+  /* z-index: 1; */
+}
+
+.vng-age-rating {
+  display: none;
+}
+
+.left-nav-menu>* {
+  margin: 0 -4px !important;
+}
+
+.right-nav-menu .main-navigation-menu-item:last-of-type {
+  margin-right: 0 !important;
+}
+
+.right-nav-menu .main-navigation-menu-item {
+  width: 40px !important;
+}
+
+/* landing pages */
+
+.rcp-fe-viewport-persistent,
+.rcp-fe-viewport-persistent>* {
+  width: 100% !important;
+}
+
+
+
+/* postgame stats */
+
+.postgame-header-container {
+  padding-right: 250px;
+  width: unset !important;
+}

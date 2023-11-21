@@ -1,0 +1,23 @@
+{
+  "name": "indie-theme",
+  "version": "0.1.0",
+  "description": "A simple and clean theme for Pengu Loader",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "pengu-loader",
+    "pengu-theme",
+    "pengu-plugin",
+    "league-client"
+  ],
+  "author": "nomi-san",
+  "license": "MIT",
+  "files": [
+    "assets/",
+    "src/"
+  ],
+  "exports": {
+    ".": "./src/index.js",
+    "./index.js": "./src/index.js"
+  }
+}
