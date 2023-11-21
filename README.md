@@ -31,7 +31,7 @@ Check out the [Release page](https://github.com/nomi-san/indie-theme/releases) t
   - Smaller and collapsible social (friends) pane with a single click of the bottom right button
   <br />
   <br />
-  <img src="https://github.com/nomi-san/indie-theme/assets/38210249/6cb556ea-d4f5-435b-8774-67e593697357" />
+  <img src="https://github.com/nomi-san/indie-theme/assets/38210249/74111391-8819-4e8d-b04d-3c5237aee927" />
   <br />
   ___________________________________
 </p>
