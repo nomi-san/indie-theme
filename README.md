@@ -39,10 +39,30 @@ Check out the [Release page](https://github.com/nomi-san/indie-theme/releases) t
 <br />
 
 <p align="center">
+  - Auto hide PLAY button when it's disabled on other screens
+  <br />
+  <br />
+  <img src="https://github.com/nomi-san/indie-theme/assets/38210249/8353ac40-1725-4939-87ff-4476a274b6f7" />
+  <br />
+  ___________________________________
+</p>
+
+<br />
+
+<p align="center">
   - Full size lobby view and possibly some other screens
   <br />
   <br />
   <img src="https://github.com/nomi-san/indie-theme/assets/38210249/9976c1bc-98de-439e-962a-3ea72f449e53" />
+  <br />
+  <br />
+  <img src="https://github.com/nomi-san/indie-theme/assets/38210249/6b8b2c3d-1927-467b-99aa-ae1e10f4b69e" />
+  <br />
+  <br />
+  <img src="https://github.com/nomi-san/indie-theme/assets/38210249/a71bcc42-77dc-4745-aba7-769cd2f69b57" />
+  <br />
+  <br />
+  <img src="https://github.com/nomi-san/indie-theme/assets/38210249/39517202-e5d3-428f-acc1-865560e001c9" />
   <br />
   ___________________________________
 </p>
