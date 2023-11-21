@@ -82,7 +82,7 @@ lol-social-roster {
   border-image: linear-gradient(0deg, rgb(120, 91, 40), rgb(200, 156, 60) 55%, rgb(200, 163, 85) 71%, rgb(200, 170, 110)) 1 / 1 / 0 stretch; */
   box-sizing: border-box;
 
-  /* flex-flow: column-reverse; */
+  flex-flow: column-reverse;
   box-shadow: -14px -13px 39px 6px rgba(0, 0, 0, 0.5);
 }
 
