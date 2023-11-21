@@ -15,7 +15,6 @@ Check out the [Release page](https://github.com/nomi-san/indie-theme/releases) t
 
 <br />
 
-
 <p align="center">
   - Reveal-on-hover/active and compact navigation items
   <br />
@@ -53,7 +52,7 @@ Check out the [Release page](https://github.com/nomi-san/indie-theme/releases) t
   - Full size lobby view and possibly some other screens
   <br />
   <br />
-  <img src="https://github.com/nomi-san/indie-theme/assets/38210249/9976c1bc-98de-439e-962a-3ea72f449e53" />
+  <img src="https://github.com/nomi-san/indie-theme/assets/38210249/f492a568-49b2-4c01-a46c-b20be0c6e1ee" />
   <br />
   <br />
   <img src="https://github.com/nomi-san/indie-theme/assets/38210249/6b8b2c3d-1927-467b-99aa-ae1e10f4b69e" />
