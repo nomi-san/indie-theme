@@ -204,17 +204,11 @@ lol-social-panel>*:hover {
 
 /* popup layers  */
 
-lol-uikit-full-page-backdrop {
-  z-index: 9 !important;
-}
-
+lol-uikit-full-page-backdrop,
 lol-uikit-flyout-frame,
+lol-uikit-dialog-frame,
 .rcp-fe-lol-settings {
   z-index: 10 !important;
-}
-
-lol-uikit-dialog-frame {
-  z-index: 12 !important;
 }
 
 .runes-route .inventory-controls {
