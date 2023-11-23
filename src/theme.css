@@ -2,10 +2,6 @@
   width: 100% !important;
 }
 
-lol-uikit-flyout-frame {
-  z-index: 100;
-}
-
 .bg-current.uikit-background-switcher {
   width: 100% !important;
 }
@@ -38,6 +34,7 @@ lol-social-roster {
   margin-top: 18px !important;
 }
 
+.parties-invite-info-panel,
 .v2-parties-invite-info-panel {
   background: transparent !important;
 }
@@ -134,7 +131,7 @@ lol-social-panel>*:hover {
 }
 
 .style-profile-skin-picker-button {
-  z-index: 100;
+  z-index: 4;
 }
 
 .loot-content-wrapper,
@@ -190,4 +187,25 @@ lol-social-panel>*:hover {
 .postgame-header-container {
   padding-right: 250px;
   width: unset !important;
+}
+
+.custom-game-tournament-code-container {
+  z-index: 2 !important;
+}
+
+lol-uikit-full-page-backdrop {
+  z-index: 9 !important;
+}
+
+lol-uikit-flyout-frame,
+.rcp-fe-lol-settings {
+  z-index: 10 !important;
+}
+
+lol-uikit-dialog-frame {
+  z-index: 12 !important;
+}
+
+.runes-route .inventory-controls {
+  margin-right: 230px;
 }
