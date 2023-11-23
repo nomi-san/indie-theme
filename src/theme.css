@@ -173,6 +173,13 @@ lol-social-panel>*:hover {
   width: 40px !important;
 }
 
+/* lobby drop zone */
+
+.parties-invite-dropzone {
+  top: 40px;
+  transform: translateY(50px);
+}
+
 /* landing pages */
 
 .rcp-fe-viewport-persistent,
