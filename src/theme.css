@@ -193,6 +193,10 @@ lol-social-panel>*:hover {
   z-index: 2 !important;
 }
 
+
+
+/* popup layers  */
+
 lol-uikit-full-page-backdrop {
   z-index: 9 !important;
 }
@@ -208,4 +212,16 @@ lol-uikit-dialog-frame {
 
 .runes-route .inventory-controls {
   margin-right: 230px;
+}
+
+
+
+/* tft lobby fix */
+
+.parties-player-leader-icon {
+  left: unset !important;
+}
+
+.tft-lobby .parties-invite-info-panel {
+  transform: translateY(-16px);
 }
