@@ -221,7 +221,11 @@ lol-uikit-dialog-frame {
   margin-right: 230px;
 }
 
+/* ready check */
 
+.ready-check-root-element {
+  z-index: 20 !important;
+}
 
 /* tft lobby fix */
 
