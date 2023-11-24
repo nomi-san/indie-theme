@@ -207,7 +207,8 @@ lol-social-panel>*:hover {
 lol-uikit-full-page-backdrop,
 lol-uikit-flyout-frame,
 lol-uikit-dialog-frame,
-.rcp-fe-lol-settings {
+.rcp-fe-lol-settings,
+.dialog-celebration-container {
   z-index: 10 !important;
 }
 
