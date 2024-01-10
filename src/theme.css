@@ -209,7 +209,8 @@ lol-uikit-flyout-frame,
 lol-uikit-dialog-frame,
 .rcp-fe-lol-settings,
 .dialog-celebration-container,
-.modal .rcp-fe-lol-paw {
+.modal .rcp-fe-lol-paw,
+#lol-uikit-layer-manager .modal > * {
   z-index: 10 !important;
 }
 
