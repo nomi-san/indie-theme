@@ -31,11 +31,17 @@ export async function load() {
             let clone = el.cloneNode(true)
             el.style.display = 'none'
             el.parentNode.appendChild(clone)
+
             clone.addEventListener('click', (e) => {
                 e.stopPropagation()
                 e.preventDefault()
                 toggleSocial()
             }, true)
+
+            Object.defineProperty(clone, 'disabled', {
+                value: undefined,
+                writable: false,
+            })
         })
 
     watchElement('.lol-social-lower-pane-container')
