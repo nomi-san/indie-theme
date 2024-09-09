@@ -81,6 +81,10 @@ lol-social-roster {
 
   flex-flow: column-reverse;
   box-shadow: -14px -13px 39px 6px rgba(0, 0, 0, 0.5);
+
+  border: thin solid #1e282d;
+  border-right: none;
+  border-bottom: none;
 }
 
 .lol-social-lower-pane-container.hidden {
@@ -232,4 +236,8 @@ lol-uikit-dialog-frame,
 
 .tft-lobby .parties-invite-info-panel {
   transform: translateY(-16px);
+}
+
+.deep-links-promo {
+  display: none !important;
 }
