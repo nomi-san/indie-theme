@@ -1,5 +1,17 @@
-# indie-theme
-A simple and clean theme for [Pengu Loader](https://pengu.lol)
+<p align="cennter">
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/53dbd359-69ba-4117-9b80-f579c39d452d" width="96" />
+  </p>
+  <h1 align="center">Indie Theme</h1>
+  <p align="center">
+    A simple and clean theme for
+      <a href="https://github.com/PenguLoader/PenguLoader" target="_blank">Pengu Loader</a>
+  </p>
+  <p align="center">
+    <img src="https://img.shields.io/npm/v/indie-theme?style=for-the-badge" />
+    <img src="https://img.shields.io/npm/d18m/indie-theme?style=for-the-badge" />
+  </p>
+</p>
 
 <br />
 
