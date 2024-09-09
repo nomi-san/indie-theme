@@ -1,0 +1,17 @@
+id: indie-theme
+name: Indie Theme
+description: A simple and clean theme with wide lobby view.
+
+repo: https://github.com/nomi-san/indie-theme
+
+author:
+  name: Nomi
+  github: nomi-san
+  
+theme: true
+auto_update: true
+tags: [theme, simple]
+
+install:
+  index: |
+    export * from 'https://unpkg.com/indie-theme@latest';
