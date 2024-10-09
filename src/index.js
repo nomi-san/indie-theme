@@ -32,6 +32,7 @@ export async function load() {
             el.style.display = 'none'
             el.parentNode.appendChild(clone)
 
+            clone.removeAttribute('disabled')
             clone.addEventListener('click', (e) => {
                 e.stopPropagation()
                 e.preventDefault()
