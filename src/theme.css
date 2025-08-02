@@ -243,3 +243,7 @@ lol-uikit-dialog-frame,
 .deep-links-promo {
   display: none !important;
 }
+
+.navbar_backdrop {
+  backdrop-filter: none !important;
+}
