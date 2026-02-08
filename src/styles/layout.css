@@ -1,0 +1,44 @@
+/* extend main viewport to full width */
+.rcp-fe-viewport-main,
+.bg-current.uikit-background-switcher {
+  width: 100% !important;
+}
+
+/* hide support button [?] */
+.app-controls-button.app-controls-support {
+  display: none !important;
+}
+
+/* hide tournament code button */
+.custom-game-tournament-code-container {
+  display: none !important;
+}
+
+/* landing pages */
+.rcp-fe-viewport-persistent,
+.rcp-fe-viewport-persistent>* {
+  width: 100% !important;
+}
+
+/* popup layers  */
+lol-uikit-full-page-backdrop,
+lol-uikit-flyout-frame,
+lol-uikit-dialog-frame,
+.rcp-fe-lol-settings,
+.dialog-celebration-container,
+.toast-celebration-body,
+.toast-celebration-frame,
+.modal .rcp-fe-lol-paw,
+#lol-uikit-layer-manager .modal>* {
+  z-index: 10 !important;
+}
+
+/* inventory controls position fix */
+.runes-route .inventory-controls {
+  margin-right: 230px;
+}
+
+/* ready check fix */
+.ready-check-root-element {
+  z-index: 20 !important;
+}

@@ -1,36 +1,29 @@
-async function delay(t) {
-    return new Promise(r => setTimeout(r, t))
-}
+// refresh-reload
+
+import './styles/layout.css'
+import './styles/navbar.css'
+import './styles/sidebar.css'
+import './styles/lobby.css'
+import './styles/postgame.css'
+
+import { watchElement } from './utils'
 
 function toggleSocial() {
-    /** @type {HTMLDivElement} */
     let pane = document.querySelector('.lol-social-lower-pane-container')
     if (pane != null) {
         pane.classList.toggle('hidden')
-        window.DataStore?.set('__social_hidden', pane.classList.contains('hidden'))
+        const hidden = pane.classList.contains('hidden')
+        // @ts-ignore
+        window.DataStore?.set('__social_hidden', hidden)
     }
 }
 
-/** @returns {Promise<HTMLElement>} */
-function watchElement(selector, interval = 500) {
-    return new Promise(async resolve => {
-        while (true) {
-            let el = document.querySelector(selector)
-            if (el != null) {
-                resolve(el)
-                break
-            }
-            await delay(interval)
-        }
-    })
-}
-
-export async function load() {
-    watchElement('.bug-report-button')
+function load() {
+    watchElement<HTMLDivElement>('.bug-report-button')
         .then(el => {
-            let clone = el.cloneNode(true)
+            let clone = el.cloneNode(true) as HTMLDivElement
             el.style.display = 'none'
-            el.parentNode.appendChild(clone)
+            el.parentNode?.appendChild(clone)
 
             clone.removeAttribute('disabled')
             clone.addEventListener('click', (e) => {
@@ -45,9 +38,10 @@ export async function load() {
             })
         })
 
-    watchElement('.lol-social-lower-pane-container')
+    watchElement<HTMLDivElement>('.lol-social-lower-pane-container')
         .then(el => {
-            let hidden = window.DataStore?.get('__social_hidden', false)
+            // @ts-ignore
+            const hidden = window.DataStore?.get('__social_hidden', false)
             if (hidden === true) {
                 el.classList.add('hidden')
             }
@@ -72,10 +66,12 @@ export async function load() {
     //         })
     //     })
 
-    // inject theme
-    let theme = new URL('./theme.css', import.meta.url).href
-    let link = document.createElement('link')
-    link.setAttribute('rel', 'stylesheet');
-    link.setAttribute('href', theme);
-    document.body.appendChild(link)
+    // // inject theme
+    // let theme = new URL('./theme.css', import.meta.url).href
+    // let link = document.createElement('link')
+    // link.setAttribute('rel', 'stylesheet')
+    // link.setAttribute('href', theme)
+    // document.body.appendChild(link)
 }
+
+document.addEventListener('DOMContentLoaded', load)

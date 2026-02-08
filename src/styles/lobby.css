@@ -1,0 +1,85 @@
+/* move header to top */
+.v2-header-component {
+  top: 0 !important;
+}
+
+.v2-header-component .lobby-header-content {
+  margin-top: 18px !important;
+}
+
+.invite-info-panel-container {
+  opacity: 0.35;
+}
+
+.invite-info-panel-container:hover {
+  opacity: 0.8;
+}
+
+.parties-invite-info-panel,
+.v2-parties-invite-info-panel {
+  background: transparent !important;
+}
+
+.parties-invite-info-panel-body {
+  border-bottom: none !important;
+  overflow-x: hidden;
+  /* hide horizontal scrollbar when quests available */
+}
+
+/* hide lobby info icon */
+.lobby-header-content>lol-uikit-info-icon {
+  display: none !important;
+}
+
+/* hide lobby header buttons (ranked metrics, open invite) */
+.lobby-header-buttons-container {
+  /* position: absolute;
+  top: calc(90vh - 4px);
+  right: calc(60vw + 4px); */
+  display: none !important;
+}
+
+/* hide blur/backdrop that overlaps lobby caption */
+.navbar-blur {
+  display: none !important;
+}
+
+.navbar_backdrop {
+  backdrop-filter: none !important;
+}
+
+.navigation-root-component {
+  border-bottom: none !important;
+}
+
+/* fix lobby drop zone */
+.parties-invite-dropzone {
+  top: 40px;
+  transform: translateY(50px);
+}
+
+/* tft lobby fixes */
+.parties-player-leader-icon {
+  left: unset !important;
+}
+
+.tft-lobby .parties-invite-info-panel {
+  transform: translateY(-16px);
+}
+
+/* quick play fixes */
+.quick-play-selected-position-container.scarce::before {
+  display: none !important;
+}
+
+/* .selection-modal.quick-play {
+  top: 500px !important;
+} */
+
+.quick-play-primary-position-selector .selection-modal.quick-play {
+  left: 480px !important;
+}
+
+.quick-play-secondary-position-selector .selection-modal.quick-play {
+  left: 534px !important;
+}

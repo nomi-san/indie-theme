@@ -1,0 +1,90 @@
+/* hide promo links (LoR, game promo events) */
+.deep-links-promo {
+  display: none !important;
+}
+
+/* hide clash button in navbar */
+.menu_item_navbar_competitive {
+  display: none !important;
+}
+
+/* hide play button when disabled */
+.play-button-component.disabled {
+  visibility: hidden;
+}
+
+.navigation-root-component {
+  justify-content: flex-end !important;
+}
+
+lol-uikit-navigation-bar {
+  width: unset !important;
+}
+
+.right-nav-vertical-rule {
+  display: none;
+}
+
+.wallet-and-badges {
+  margin-right: 0 !important;
+}
+
+.wallet-and-badges>* {
+  margin-left: 8px !important;
+}
+
+.main-navigation-menu-item,
+.wallet-and-badges,
+.ticker-button,
+.lol-social-identity,
+lol-social-panel>* {
+  opacity: .4;
+}
+
+.main-navigation-menu-item:hover,
+.main-navigation-menu-item[active],
+.wallet-and-badges:hover,
+.ticker-button:hover,
+.lol-social-identity:hover,
+lol-social-panel>*:hover {
+  opacity: .8;
+}
+
+.style-profile-skin-picker-button {
+  z-index: 4;
+}
+
+.loot-content-wrapper,
+.collections-application {
+  width: 100% !important;
+}
+
+.loot-backdrop {
+  width: 100% !important;
+  background-size: cover !important;
+}
+
+.rcp-fe-viewport-overlay {
+  z-index: 2;
+}
+
+.rcp-fe-viewport-overlay>.screen-root:first-child {
+  border-top: 1px solid #1e282d;
+}
+
+.invite-info-panel-container {
+  bottom: 40px !important;
+  /* z-index: 1; */
+}
+
+.left-nav-menu>* {
+  margin: 0 -4px !important;
+}
+
+.right-nav-menu .main-navigation-menu-item:last-of-type {
+  margin-right: 0 !important;
+}
+
+.right-nav-menu .main-navigation-menu-item {
+  width: 40px !important;
+}

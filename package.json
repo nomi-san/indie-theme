@@ -1,9 +1,11 @@
 {
   "name": "indie-theme",
-  "version": "0.1.13",
+  "version": "0.2.1",
   "description": "A simple and clean theme for Pengu Loader",
-  "main": "src/index.js",
-  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomi-san/indie-theme.git"
+  },
   "keywords": [
     "pengu-loader",
     "pengu-theme",
@@ -12,12 +14,22 @@
   ],
   "author": "nomi-san",
   "license": "MIT",
+  "type": "module",
   "files": [
-    "assets/",
-    "src/"
+    "dist/"
   ],
   "exports": {
-    ".": "./src/index.js",
-    "./index.js": "./src/index.js"
+    ".": "./dist/index.js",
+    "./index.js": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/node": "20",
+    "typescript": "~5.9.3",
+    "vite": "^6",
+    "vite-plugin-css-injected-by-js": "^3.5.2"
   }
 }

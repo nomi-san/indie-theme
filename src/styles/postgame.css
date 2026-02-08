@@ -1,0 +1,10 @@
+/* postgame stats */
+
+.postgame-header-container {
+  padding-right: 250px;
+  width: unset !important;
+}
+
+.custom-game-tournament-code-container {
+  z-index: 2 !important;
+}
