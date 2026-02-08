@@ -1,11 +1,10 @@
-.rcp-fe-viewport-main {
-  width: 100% !important;
-}
-
+/* extend main viewport to full width */
+.rcp-fe-viewport-main,
 .bg-current.uikit-background-switcher {
   width: 100% !important;
 }
 
+/* fix main sidebar */
 .rcp-fe-viewport-sidebar {
   position: fixed;
   right: 0px;
@@ -14,16 +13,38 @@
   height: auto !important;
 }
 
+/* remove social bar background */
 .lol-social-sidebar {
   background: transparent !important;
 }
 
-lol-social-avatar {
+/* hide level border ring & bottom xp ring */
+lol-uikit-radial-progress .bottom.xp-ring,
+lol-uikit-radial-progress .summoner-level-ring {
+  display: none !important;
+}
+
+/* lol-social-avatar {
   transform: scale(0.85);
 }
 
 lol-social-roster {
-  /* padding-bottom: 160px; */
+  padding-bottom: 160px;
+} */
+
+/* hide lobby info icon */
+.lobby-header-content > lol-uikit-info-icon {
+  display: none !important;
+}
+
+/* hide support button */
+.app-controls-button.app-controls-support {
+  display: none !important;
+}
+
+/* hide clash button */
+.menu_item_navbar_competitive {
+  display: none !important;
 }
 
 .v2-header-component {
@@ -44,9 +65,10 @@ lol-social-roster {
 }
 
 .lobby-header-buttons-container {
-  position: absolute;
+  /* position: absolute;
   top: calc(90vh - 4px);
-  right: calc(60vw + 4px);
+  right: calc(60vw + 4px); */
+  display: none !important;
 }
 
 .alpha-version-panel {
@@ -57,7 +79,7 @@ lol-social-roster {
 }
 
 .navbar-blur {
-  display: none;
+  display: none !important;
 }
 
 .navigation-root-component {
@@ -216,7 +238,7 @@ lol-uikit-dialog-frame,
 .toast-celebration-body,
 .toast-celebration-frame,
 .modal .rcp-fe-lol-paw,
-#lol-uikit-layer-manager .modal > * {
+#lol-uikit-layer-manager .modal>* {
   z-index: 10 !important;
 }
 
