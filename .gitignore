@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 
-./index.js
+/index.js

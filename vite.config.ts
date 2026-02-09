@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     modulePreload: false,
     lib: {
-      name: 'preload',
+      name: 'indie_theme',
       entry: 'src/main.ts',
       formats: ['iife']
     },

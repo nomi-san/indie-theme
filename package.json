@@ -27,9 +27,9 @@
     "build": "tsc && vite build"
   },
   "devDependencies": {
-    "@types/node": "20",
+    "@types/node": "^20",
     "typescript": "~5.9.3",
-    "vite": "^6",
+    "vite": "^7.3.1",
     "vite-plugin-css-injected-by-js": "^3.5.2"
   }
 }
